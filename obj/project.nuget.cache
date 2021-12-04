@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BwUI9rF6EpydtoclnZZObPT5Cw/wuW/s3Fn/6pPo1Xy7dRXSWkbyzHEMOYfmkasZq/FBEf4hBwRU0xeRgVsQ/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dhomas\\Documents\\Visual Studio 2022\\Projects\\WebApplication2\\WebApplication2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dhomas\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512"
+  ],
+  "logs": []
+}
