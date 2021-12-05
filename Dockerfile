@@ -3,13 +3,13 @@ WORKDIR /app
 #EXPOSE 80
 EXPOSE 443
 # ==================================================
-EXPOSE 8080
-#ENV ASPNETCORE_URLS=https://*:443;http://*:8080
+EXPOSE 80
+#ENV ASPNETCORE_URLS=https://*:443;http://*:80
 ARG ASPNETCORE_URLS
 ENV ASPNETCORE_URLS=${ASPNETCORE_URLS}
 
 ARG ASPNETCORE_HTTPS_PORT
-#ENV ASPNETCORE_HTTPS_PORT=${ASPNETCORE_HTTPS_PORT}
+ENV ASPNETCORE_HTTPS_PORT=${ASPNETCORE_HTTPS_PORT}
 # ==================================================
 
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
